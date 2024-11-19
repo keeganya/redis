@@ -1,0 +1,12 @@
+logging:
+  level:
+    io.lettuce.core: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  redis:
+    sentinel:
+      master:
+        - 127.0.0.1:27001
+        - 127.0.0.1:27002
+        - 127.0.0.1:27003

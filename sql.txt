@@ -1,0 +1,7 @@
+INSERT INTO hmdp.tb_voucher
+(id, shop_id, title, sub_title, rules, pay_value, actual_value, `type`, status, create_time, update_time)
+VALUES(7, 1, '100元代金券', '周一至周五均可使用', '全场通用\n无需预约\n可无限叠加\不兑现、不找零\n仅限堂食', 8000, 10000, 1, 1, '2022-01-04 09:42:39', '2022-01-04 09:43:31');
+
+INSERT INTO hmdp.tb_seckill_voucher
+(voucher_id, stock, create_time, begin_time, end_time, update_time)
+VALUES(7, 100, '2024-11-11 17:28:59', '2024-11-11 17:28:59', '2025-11-11 17:28:59', '2024-11-11 17:32:42');
